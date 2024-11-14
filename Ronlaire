@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronlaire - Authentic Chinese Cuisine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+        }
+        /* 主导航栏 */
+        header {
+            background-color: #B22222;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* 菜单样式 */
+        .menu-section {
+            background-color: #fff;
+            color: #333;
+            padding: 2em;
+            text-align: left;
+        }
+        .menu-item {
+            margin: 1.5em 0;
+        }
+        .menu-item h3 {
+            color: #B22222;
+            font-size: 1.5em;
+        }
+        footer {
+            background-color: #B22222;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ronlaire</h1>
+        <p>Authentic Chinese Cuisine</p>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div style="padding: 2em; text-align: center;">
+            <h2>Welcome to Ronlaire</h2>
+            <p>Experience authentic Chinese flavors with our handcrafted Baozi and noodles.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        
+        <div class="menu-item">
+            <h3>Char Siu Bao</h3>
+            <p>Made with sweet and flavorful pork belly that has a glossy appearance.</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Soy Sweet Pork Bao</h3>
+            <p>Made with ground pork, soy sauce and spices.</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Mapo Tofu Beef Bao</h3>
+            <p>Made with tofu and ground beef that's mildly spicy and savory.</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Green Onion Pork Bao</h3>
+            <p>Made with ground pork, green onions and soy sauce. It's the most traditional Bao in China.</p>
+        </div>
+        
+        <div class="menu-item">
+            <h3>Soy Tofu Vegan Bao</h3>
+            <p>Stir-fried tofu with soy sauce, mixed with carrot, mushroom, cabbage and fresh garlic stir-fried with olive oil. The seasonings are only with sugar, salt, sesame oil and mushroom powder.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ronlaire - Authentic Chinese Cuisine</p>
+    </footer>
+</body>
+</html>
